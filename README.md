@@ -1,4 +1,4 @@
-# faster-rcnn
+# yolo
 ## 环境配置
 python3.9
 
@@ -12,9 +12,9 @@ VOC数据集下载地址：[https://pan.baidu.com/s/1-1Ej6dayrx3g0iAA88uY5A]
 提取码：ph32
 
 ## 预训练网络
-resnet50参数下载地址：[https://pan.baidu.com/s/1S6wG8sEXBeoSec95NZxmlQ]
+网络参数下载地址：[https://pan.baidu.com/s/1hCV4kg8NyStkywLiAeEr3g]
 
-提取码：8mgp
+提取码：6da3
 
 下载好的模型放到model_data目录下
 
@@ -24,10 +24,11 @@ resnet50参数下载地址：[https://pan.baidu.com/s/1S6wG8sEXBeoSec95NZxmlQ]
 `python trian.py`
 
 ## 预测
-在frcnn.py中修改model_path对应到自己训练的文件
-
+在yolo.py中修改model_path对应到自己训练的文件
 
 `python predict.py`
+
+然后输入预测图像地址
 
 ## Reference
 [https://github.com/bubbliiiing/faster-rcnn-pytorch]
