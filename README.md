@@ -11,6 +11,11 @@ VOC数据集下载地址：[https://pan.baidu.com/s/1-1Ej6dayrx3g0iAA88uY5A]
 
 提取码：ph32
 
+## 预训练网络
+resnet50参数下载地址：[https://pan.baidu.com/s/1S6wG8sEXBeoSec95NZxmlQ]
+
+提取码：8mgp
+
 ## 训练
 `python voc_annotation.py`
 
