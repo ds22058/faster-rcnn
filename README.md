@@ -16,6 +16,8 @@ resnet50参数下载地址：[https://pan.baidu.com/s/1S6wG8sEXBeoSec95NZxmlQ]
 
 提取码：8mgp
 
+下载好的模型放到model_data目录下
+
 ## 训练
 `python voc_annotation.py`
 
